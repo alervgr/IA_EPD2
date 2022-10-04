@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
     ## ======================= EJ3. Gradiente =======================
     # Run gradient descent
-    print('\nRunning Gradient Descent ...') #Hola
+    print('\nRunning Gradient Descent ...') #Hola cola
     # Some gradient descent settings
     alpha = 0.01
     it = 1500
