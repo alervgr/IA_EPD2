@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     thetas = np.zeros((X.shape[1], 1))
 
-    J_base = computeCost(X, y, thetas) #asasasss
+    J_base = computeCost(X, y, thetas)
 
     print("\tResult EJ2: Cost = ", J_base)
 
