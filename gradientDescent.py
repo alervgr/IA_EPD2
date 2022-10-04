@@ -14,5 +14,5 @@ def gradientDescent(X, y, theta, alpha, n):
         it.append(i)
         coste.append(computeCost(X, y, theta))
 
-    J_history = pd.DataFrame({'iteracion': it , 'coste': coste})
+    J_history = pd.DataFrame({'iteracion': it, 'coste': coste})
     return J_history, theta

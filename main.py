@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
     ## ======================= EJ3. Gradiente =======================
     # Run gradient descent
-    print('\nRunning Gradient Descent ...') #Hola cola
+    print('\nRunning Gradient Descent ...')
     # Some gradient descent settings
     alpha = 0.01
     it = 1500
@@ -67,5 +67,3 @@ if __name__ == '__main__':
     # Plot the linear fit
 
     # Predict values for population sizes of 35, 000 and 70, 000
-
-
