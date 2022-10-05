@@ -64,6 +64,25 @@ if __name__ == '__main__':
     # print theta to screen
 
     ## ======================= EJ4. Visualización =======================
+
+    del (X['x0'])
     # Plot the linear fit
+    plt.plot(X, theta_opt[1] * X + theta_opt[0])
+    plot_data(X, y)
 
     # Predict values for population sizes of 35, 000 and 70, 000
+    x_p = 3.5
+    y_p = x_p * theta_opt[1] + theta_opt[0]
+    print('X=35,000 -> Y=', y_p)
+
+    plt.scatter(x_p, y_p, marker='^', c='green')
+    plt.plot(X, theta_opt[1] * X + theta_opt[0])
+    plot_data(X, y)
+
+    x_p = 7
+    y_p = x_p * theta_opt[1] + theta_opt[0]
+    print('X=70,000 -> Y=', y_p)
+
+    plt.scatter(x_p, y_p, marker='^', c='green')
+    plt.plot(X, theta_opt[1] * X + theta_opt[0])
+    plot_data(X, y)
